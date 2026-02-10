@@ -1,1 +1,75 @@
-/* Add styles here */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 90%;
+    width: 500px;
+}
+
+h1 {
+    color: #0056b3;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.numbers-display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.number-ball {
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
+}
+
+#draw-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+#draw-button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+#draw-button:active {
+    background-color: #1e7e34;
+    transform: translateY(0);
+}
