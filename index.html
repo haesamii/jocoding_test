@@ -19,6 +19,23 @@
         </div>
         <button id="draw-button">Draw Numbers</button>
     </div>
+    <form id="contact-form" action="https://formspree.io/f/mnjbjqnj" method="POST">
+        <h2>제휴 문의</h2>
+        <div class="form-group">
+            <label for="name">이름:</label>
+            <input type="text" id="name" name="name" required placeholder="이름을 입력해주세요.">
+        </div>
+        <div class="form-group">
+            <label for="email">이메일:</label>
+            <input type="email" id="email" name="email" required placeholder="이메일을 입력해주세요.">
+        </div>
+        <div class="form-group">
+            <label for="message">문의 내용:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="문의 내용을 입력해주세요."></textarea>
+        </div>
+        <button type="submit">문의 보내기</button>
+    </form>
+
     <script src="main.js"></script>
 </body>
 </html>
